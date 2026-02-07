@@ -1,0 +1,40 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.hero-section {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.dept-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-bottom: 3px solid transparent !important;
+}
+
+.dept-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+    border-color: #dc3545 !important;
+}
+
+.navbar-brand {
+    letter-spacing: 2px;
+}
+
+#contact form .form-control {
+    background: #2b3035;
+    border: 1px solid #444;
+    color: white;
+}
+
+#contact form .form-control:focus {
+    background: #343a40;
+    box-shadow: none;
+    border-color: #dc3545;
+    color: white;
+}
